@@ -1,5 +1,54 @@
-.avisimg{
-    display: none !important;
-  }
+.avisimg {
+  display: none !important;
+}
 
-  
+#page2464,
+#page2430,
+#page2477,
+#page2473 #page2476 #page2466 #page2475 .plusavis {
+  display: none !important;
+}
+
+
+.typeEtabissementContainerRadio input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+
+  border: 2px solid #0d2146;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+}
+
+.typeEtabissementContainerRadio input:checked {
+  border: 5px solid #0d2146;
+}
+
+
+.typeEtabissementContainer,
+p {
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.typeEtabissementContainerRadio {
+  padding-left: 10px;
+}
+
+.textcss {
+  text-transform: capitalize !important;
+}
+
+.typeEtabishemnt--radio {
+  margin-left: 5px;
+}

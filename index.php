@@ -691,16 +691,6 @@ if($dispositivo == 1): ?>
 			</footer>
 
 <?php endif; ?>
-
-                            <?php
-                            $orig = 'J\'ai "sorti" le <strong>chien</strong> tout à l\'heure';
-                            $a = htmlentities($orig);
-                            $b = html_entity_decode($a);
-
-                            echo $a; // J'ai &quot;sorti&quot; le &lt;strong&gt;chien&lt;/strong&gt; tout &amp;agrave; l'heure
-                            echo $b; // J'ai "sorti" le <strong>chien</strong> tout à l'heure
-
-                            ?>
 <!-- <style>
 .contheaderprinc.visible{
 	background-color: #fff;
